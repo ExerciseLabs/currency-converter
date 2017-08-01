@@ -36,4 +36,4 @@ This is a simple currency converter app that makes use of the public
 ## Tests
 - unit and functional tests 
 
-        vendor/bin/`phpunit`
+        vendor/bin/phpunit
