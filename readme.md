@@ -1,5 +1,6 @@
 ## Currency Converter
-This is a simple currency converter app that makes use of the public fixer.io api to make conversions between different currencies.
+This is a simple currency converter app that makes use of the public 
+[fixer.io](http://fixer.io/) api to make conversions between different currencies.
 
 ## Installation and configuration
 - Fork and clone repo
