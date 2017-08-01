@@ -32,7 +32,10 @@ This is a simple currency converter app that makes use of the public
 - start application with
 
         php artisan serve
-
+If you would prefer to listen on another port order than the default 8000:
+    
+        php artisan serve --port=preferedPortNumber
+        
 ## Tests
 - unit and functional tests 
 

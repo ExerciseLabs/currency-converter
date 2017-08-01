@@ -11,4 +11,10 @@
 |
 */
 
+Route::get(
+    '/', function () {
+        return view('welcome');
+    }
+);
+
 Route::get('/latest', 'RateController@latest');
