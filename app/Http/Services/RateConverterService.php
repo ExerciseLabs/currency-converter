@@ -122,4 +122,17 @@ class RateConverterService
 
         return $rates;
     }
+
+    /**
+     * Return an array of existing currencies
+     *
+     * @return array
+     */
+    public function getCurrencies()
+    {
+        $allCurrencies = array_keys($this->getLatestRate()['rates']);
+        $allCurrencies[] = $this->getLatestRate()['base'];
+
+        return $allCurrencies;
+    }
 }
