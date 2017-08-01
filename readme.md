@@ -3,12 +3,40 @@ This is a simple currency converter app that makes use of the public fixer.io ap
 
 ## Installation and configuration
 - Fork and clone repo
-- cd into directory and run `composer install`
-- rename.env.example file, configure database as required
-- generate application key by running `php artisan key:generate`
-- run migrations by running `php artisan migrate`
-- start application with `php artisan serve`
+
+        git clone https://github.com/ExerciseLabs/currency-converter.git
+    
+- cd into directory and install dependencies
+
+        cd currency-converter
+        composer install
+    
+- rename .env.example file, configure database as required
+
+        DB_CONNECTION=
+        DB_HOST=
+        DB_PORT=
+        DB_DATABASE=
+        DB_USERNAME=
+        DB_PASSWORD=
+        
+- generate application key
+
+        php artisan key:generate
+        
+- run migrations
+
+        php artisan migrate
+        
+- start application with
+
+        php artisan serve
 
 ## Tests
-- To run unit and functional tests run `phpunit` in the root directory.
-- To run end-to-end tests run `php artisan dusk` in the root directory.
+- unit and functional tests 
+
+        vendor/bin/`phpunit`
+        
+- end-to-end tests
+
+        php artisan dusk
