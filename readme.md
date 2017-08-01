@@ -37,7 +37,3 @@ This is a simple currency converter app that makes use of the public
 - unit and functional tests 
 
         vendor/bin/`phpunit`
-        
-- end-to-end tests
-
-        php artisan dusk
